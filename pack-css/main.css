@@ -1,0 +1,126 @@
+/*-- main css file --*/
+/*----*/
+/*-- css reset --*/
+* {
+	margin:0;
+	padding:0;
+	list-style:none;
+	box-sizing:border-box;
+	appearance:none;
+	-webkit-appearance:none;
+}
+/*-- typography --*/
+body {
+	font-family:avenir,-apple-system,system-ui,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',sans-serif;
+}
+h1 {
+	font-size:44px;
+	line-height:1.3em;
+	font-weight:600;
+	color:#000;
+}
+h2 {
+	font-size:26px;
+	line-height:1.3em;
+	font-weight:600;
+	color:#000;
+}
+h3 {
+	font-size:26px;
+	line-height:1.3em;
+	font-weight:500;
+	color:#555;
+}
+h4 {
+	font-size:16px;
+	line-height:1.3em;
+	font-weight:600;
+	color:#000;
+}
+h5 {
+	/*-- caption type --*/
+	font-size:13px;
+	line-height:1.3em;
+	font-weight:400;
+	color:#555;
+}
+h6 {
+	/*-- tiny text --*/
+	font-size:11px;
+	line-height:1.3em;
+	font-weight:400;
+	color:#555;
+}
+p {
+	font-size:16px;
+	line-height:1.6em;
+	font-weight:400;
+	color:#555;
+}
+
+/*-- default --*/
+.drow {
+	width:100%;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:nowrap;
+	justify-content:center;
+	align-items:center;
+}
+
+/*-- header --*/
+.dintro {
+	padding:160px 0 80px;
+	background:#f8f4f0;
+}
+.dintro .dcontent-block {
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+}
+.dintro .dname {
+	padding-bottom:32px;
+}
+.dintro .dname {
+	font-size:44px;
+	line-height:1.3em;
+	font-weight:400;
+	color:#000;
+	text-align:center;
+}
+.dintro .dtitle {
+	text-transform:uppercase;
+	text-align:center;
+	font-size:14px;
+	letter-spacing:1.5px;
+}
+.dintro img {
+	max-width:50em;
+	height:auto;
+	background-color:#f8f4f0;
+}
+
+/*-- grid --*/
+.dgrid .dcontent-block {
+	max-width:50em;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:center;
+	align-items:center;
+}
+.dgrid .drow .dimage {
+	background:#eee;
+	height:300px;
+	width:240px;
+	margin:12px;
+}
+
+/*
+|
+|
+|
+|
+|
+*/
+/*-- end of file --*/
