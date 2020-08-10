@@ -4,37 +4,28 @@
 }
 /*----*/
 @media only screen and (max-width:800px) {
-	.dmain .dgrid .dcontent-block {
-		width:94%;
-	}
-	.dmain .dgrid .dcontent-block .dimage {
-		width:33.33%;
+	.dmain .dgrid .dcontent-block .dimage-block {
+		padding:8px;
 	}
 }
 /*----*/
-@media only screen and (max-width:640px) {
-	.dmain .dgrid .dcontent-block .dimage {
-		width:50%;
+@media only screen and (max-width:680px) {
+	.dmain .dgrid .dcontent-block .dimage-block {
+		flex:0 0 33.33%;
 	}
 }
 /*----*/
 @media only screen and (max-width:420px) {
-	.dmain .dgrid .dcontent-block {
-		width:96%;
+	.dmain .dgrid .dcontent-block .dimage-block {
+		flex:0 0 50%;
+		height:20em;
 	}
-	.dmain .dgrid .dcontent-block .dimage {
-		padding:0 8px 32px;
-}
-	.dmain .dgrid .dimage .dthumb {
-		height:14em;
+	.dmain .dgrid .dimage-block .dthumb {
+		height:9em;
 	}
-	
 }
 /*----*/
 @media only screen and (max-width:375px) {
-	.dmain .dgrid .dimage .dthumb {
-		height:12em;
-	}
 }
 
 

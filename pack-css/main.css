@@ -104,50 +104,47 @@ p,.dnormal-text {
 }
 
 /*-- grid --*/
-/* --------
----------
 .dgrid .dcontent-block {
-	max-width:60em;
-	width:90%;
-	position:relative;
-	margin:80px auto;
-}
-.dgrid .dcontent-block .dimage {
-	background:none;
-	width:25%;
-	float:left;
-	padding:0 16px 32px;
-}
-.dgrid .dimage .dthumb {
 	width:100%;
-	height:16em;
-	background:#f0f4f8;
-}
-.dgrid .dimage .dhead,
-.dgrid .dimage .dcat {
-	display:block;
-	padding-top:8px;
-}
-.dgrid .dimage .dcat {
-	padding-top:4px;
-}
--------
--------*/
-
-.dgrid .dcontent-block {
-	background:black;
-	width:96%;
-	max-width:60em;
+	max-width:52em;
 	position:relative;
-	margin:80px auto;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:flex-start;
+	align-items:flex-start;
+	margin:5em auto;
 }
-.dgrid .dcontent-block .dimage {
-	background:#555;
-	width:25%;
-	height:16em;
-	float:left;
-	border:1px solid #eee;
+.dgrid .dcontent-block .dimage-block {
+	flex:0 0 25%;
+	height:22em;
+	padding:16px;
 }
+.dgrid .dimage-block .dimage {
+	width:100%;
+	height:100%;
+	background-color:#fff;
+	box-shadow:0px 6px 8px rgba(0,0,0,0.15);
+}
+.dgrid .dimage-block .dthumb {
+	width:100%;
+	height:10em;
+	background-color:#f8f4f0;
+	display:block;
+}
+.dgrid .dimage-block .dhead {
+	display:block;
+	text-align:center;
+	font-weight:500;
+	margin-top:4em;
+}
+.dgrid .dimage-block .dcat {
+	display:block;
+	text-align:center;
+	margin-top:1em;
+}
+
+
 
 
 /*-- tags --*/
