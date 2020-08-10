@@ -98,11 +98,14 @@ p,.dnormal-text {
 }
 .dintro img {
 	max-width:50em;
+	width:100%;
 	height:auto;
 	background-color:#f8f4f0;
 }
 
 /*-- grid --*/
+/* --------
+---------
 .dgrid .dcontent-block {
 	max-width:60em;
 	width:90%;
@@ -113,7 +116,7 @@ p,.dnormal-text {
 	background:none;
 	width:25%;
 	float:left;
-	padding:0 16px 32px 16px;
+	padding:0 16px 32px;
 }
 .dgrid .dimage .dthumb {
 	width:100%;
@@ -128,10 +131,32 @@ p,.dnormal-text {
 .dgrid .dimage .dcat {
 	padding-top:4px;
 }
+-------
+-------*/
+
+.dgrid .dcontent-block {
+	background:black;
+	width:96%;
+	max-width:60em;
+	position:relative;
+	margin:80px auto;
+}
+.dgrid .dcontent-block .dimage {
+	background:#555;
+	width:25%;
+	height:16em;
+	float:left;
+	border:1px solid #eee;
+}
+
 
 /*-- tags --*/
 
-
+/*-- footer --*/
+footer {
+	height:360px; /* test */
+	background-color:#e8e4e0;
+}
 
 
 /*----*/
