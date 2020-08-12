@@ -53,7 +53,7 @@ h6,.dtiny-text {
 	font-weight:400;
 	color:#555;
 }
-p,.dnormal-text {
+p,.dtxt-std {
 	font-size:16px;
 	line-height:1.6em;
 	font-weight:400;
@@ -144,10 +144,33 @@ p,.dnormal-text {
 	margin-top:1em;
 }
 
-
-
-
 /*-- tags --*/
+.dtags .dcontent-block {
+	width:100%;
+	max-width:50em;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	margin:0 auto 80px;
+}
+.dtags .dcontent-block .dimg-cat {
+	background:#f8f4f0 url() center no-repeat;
+	width:50%;
+	min-height:10em;
+}
+.dtags .dcontent-block .dtag-wrapper {
+	width:50%;
+	padding:1em;
+	box-sizing:border-box;
+}
+.dtags .dtag-wrapper .dtag-tag {
+	display:block;
+	padding:1em 2em;
+	border-radius:3em;
+}
+
+/*-- bottom bars --*/
+
 
 /*-- footer --*/
 footer {
