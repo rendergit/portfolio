@@ -16,45 +16,45 @@ body {
 	font-family:avenir,-apple-system,system-ui,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',sans-serif;
 }
 h1 {
-	font-size:44px;
+	font-size:2.8em;
 	line-height:1.3em;
 	font-weight:600;
 	color:#000;
 }
 h2 {
-	font-size:26px;
+	font-size:1.6em;
 	line-height:1.3em;
 	font-weight:600;
 	color:#000;
 }
 h3 {
-	font-size:26px;
+	font-size:1.6em;
 	line-height:1.3em;
 	font-weight:500;
 	color:#555;
 }
 h4 {
-	font-size:16px;
+	font-size:1em;
 	line-height:1.3em;
 	font-weight:600;
 	color:#000;
 }
 h5,.dcaption {
 	/*-- caption type --*/
-	font-size:13px;
+	font-size:0.8em;
 	line-height:1.3em;
 	font-weight:400;
 	color:#555;
 }
 h6,.dtiny-text {
 	/*-- tiny text --*/
-	font-size:11px;
+	font-size:0.7em;
 	line-height:1.3em;
 	font-weight:400;
 	color:#555;
 }
 p,.dtxt-std {
-	font-size:16px;
+	font-size:1em;
 	line-height:1.6em;
 	font-weight:400;
 	color:#555;
@@ -68,6 +68,21 @@ p,.dtxt-std {
 	flex-wrap:nowrap;
 	justify-content:center;
 	align-items:center;
+}
+button {
+	font-size:0.8em;
+	line-height:3em;
+	font-weight:400;
+	color:#555;
+	box-shadow:none;
+	border:1px solid #eee;
+	background:#f8f4f0;
+	text-transform:uppercase;
+	letter-spacing:0.1em;
+}
+button:hover {
+	background:#000;
+	color:#eee;
 }
 
 /*-- header --*/
@@ -160,22 +175,33 @@ p,.dtxt-std {
 }
 .dtags .dcontent-block .dtag-wrapper {
 	width:50%;
-	padding:1em;
+	padding:0 1em;
 	box-sizing:border-box;
 }
 .dtags .dtag-wrapper .dtag-tag {
 	display:block;
 	padding:1em 2em;
 	border-radius:3em;
+	text-transform:capitalize;
 }
 
 /*-- bottom bars --*/
-
+.dbars .dcontent-block {
+	width:100%;
+	margin:0;
+	padding:0;
+}
+.dbars .dcontent-block button {
+	width:100%;
+	margin:0;
+	padding:0;
+	display:block;
+}
 
 /*-- footer --*/
 footer {
 	height:360px; /* test */
-	background-color:#e8e4e0;
+	background-color:#000;
 }
 
 
