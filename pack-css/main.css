@@ -26,30 +26,27 @@
 /*-- typography --*/
 body {
 	font-family:avenir,-apple-system,system-ui,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',sans-serif;
+	color:#000;
 }
 h1 {
 	font-size:2.8em;
 	line-height:1.3em;
 	font-weight:600;
-	color:#000;
 }
 h2 {
 	font-size:1.6em;
 	line-height:1.3em;
 	font-weight:600;
-	color:#000;
 }
 h3 {
 	font-size:1.6em;
 	line-height:1.3em;
 	font-weight:500;
-	color:#555;
 }
 h4 {
 	font-size:1em;
 	line-height:1.3em;
 	font-weight:600;
-	color:#000;
 }
 h5,.dcaption {
 	/*-- caption type --*/
@@ -101,6 +98,11 @@ button:hover {
 	background:#000;
 	color:#f8f4f0;
 	cursor:pointer;
+}
+.dtooltip {
+	font-size:0.8em;
+	line-height:1em;
+	color:#555;
 }
 
 /*-- header --*/
@@ -210,6 +212,7 @@ button:hover {
 .dgrid .dimage .dover a:hover {
 	background:#000;
 	color:#f8f4f0;
+	transition:background 0.4s ease-in;
 	cursor:pointer;
 }
 
@@ -263,6 +266,7 @@ button:hover {
 .dbars .dcontent-block a:hover {
 	background:#000;
 	color:#f8f4f0;
+	transition:background 0.4s ease-in;
 }
 
 /*-- footer --*/
@@ -287,6 +291,7 @@ footer .dsocial-bar .dsocial-icon {
 	background-size:40%;
 	background-position:center;
 	background-repeat:no-repeat;
+	position:relative;
 }
 footer .dsocial-bar a[name="dribbble"].dsocial-icon {
 	background-image:url(../rss/icons/icon-dribbble.svg);
@@ -303,8 +308,24 @@ footer .dsocial-bar a[name="stack exchange"].dsocial-icon {
 footer .dsocial-bar a[name="skype"].dsocial-icon {
 	background-image:url(../rss/icons/icon-skype.svg);
 }
-footer .dsocial-bar a.dsocial-icon:hover {
+footer .dsocial-bar .dsocial-icon:hover {
 	background-color:#000;
+	transform: matrix(1.1,0,0,1.1,0,-4);
+	box-shadow: 0px 3px 14px rgba(13,13,13,0.1);
+	transition: transform 0.4s ease-in;
+	opacity: 1;
+	border-color: transparent;
+}
+footer .dsocial-bar .dsocial-icon .dtooltip{
+	position:absolute;
+	top:-24px;
+	white-space:nowrap;
+	transform:translate(-50%,0);
+	color:#fff;
+	visibility:hidden;
+}
+footer .dsocial-bar .dsocial-icon:hover .dtooltip {
+	visibility:visible;
 }
 footer .dcopyright .dcontent-block {
 	padding-top:4em;
