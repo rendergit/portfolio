@@ -330,8 +330,12 @@ footer .dsocial-bar .dsocial-icon:hover .dtooltip {
 footer .dcopyright .dcontent-block {
 	padding-top:4em;
 }
-footer .dcopyright .dcontent-block>span {
+footer .dcopyright .dcontent-block>* {
 	color:white;
+	font-size:0.8em;
+}
+footer .dcopyright .dcontent-block a:hover {
+	text-decoration:underline;
 }
 
 
