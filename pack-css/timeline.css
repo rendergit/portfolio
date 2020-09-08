@@ -1,14 +1,9 @@
 /*
-.dwork-project-timeline .dproject-block {width:inherit; display:flex; flex-direction:row; flex-wrap:nowrap;}
 .dwork-project-timeline .dproject-block .dthumbnail {width:96px; min-height:140px; position:relative; margin:0; padding:0;}
 .dwork-project-timeline .dproject-block .dthumbnail .dline {border-right:1px solid rgba(13,13,13,0.2); width:47px !important; display:block; height:100%; margin-right:48px;}
 .dwork-project-timeline .dproject-block .dthumbnail img {width:72px; height:72px; position:absolute; top:48px; left:10px; border:none; box-shadow:none; outline:none; font-size:13px; color:#fff; border-radius:50%;background: #f0f0f0 none no-repeat center; padding:0;}
 .dwork-project-timeline .dproject-block .dthumbnail.dmid {min-height:110px !important;}
 .dwork-project-timeline .dproject-block .dthumbnail .dyear {width:96px; height:48px; background-color:#fff; position:absolute; top:44px; padding:8px 16px; box-sizing:border-box; text-align:center; font-size:18px; line-height:30px;letter-spacing:0.1em; color:rgba(13,13,13,0.5);}
-.dwork-project-timeline .dproject-block .ddescription {padding:40px 0 0 32px;}
-.dwork-project-timeline .dproject-block .ddescription .dname {display:block;}
-.dwork-project-timeline .dproject-block .ddescription .dcat {display:block; color:rgba(13,13,13,0.7); font-size:13px; line-height:22px; text-transform:uppercase;}
-.dwork-project-timeline .dproject-block .ddescription .dbrief {display:block; color:rgba(13,13,13,0.7); font-size:13px; line-height:22px;}
 ------
 ------
 ------
