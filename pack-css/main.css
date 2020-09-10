@@ -81,7 +81,7 @@ p,.dtxt-std {
 a {
 	text-decoration:none;
 }
-button {
+button, .dbutton {
 	font-size:0.8em;
 	line-height:4em;
 	font-weight:400;
@@ -93,11 +93,14 @@ button {
 	border-radius:1px;
 	background:#f8f4f0;
 	padding:0px 24px;
+	display:inline-block;
 }
-button:hover {
+button:hover,
+.dbutton:hover {
 	background:#000;
 	color:#f8f4f0;
 	cursor:pointer;
+	transition:background 0.4s ease-out;
 }
 .dtooltip {
 	font-size:0.8em;
@@ -197,6 +200,7 @@ button:hover {
 .dgrid .dimage:hover .dover {
 	visibility:visible;
 }
+/*
 .dgrid .dimage .dover a {
 	font-size:0.8em;
 	line-height:4em;
@@ -215,6 +219,7 @@ button:hover {
 	transition:background 0.4s ease-in;
 	cursor:pointer;
 }
+/*
 
 /*-- tags --*/
 .dtags .dcontent-block {

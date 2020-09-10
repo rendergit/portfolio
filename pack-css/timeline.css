@@ -23,6 +23,18 @@
 .dtimeline {
 	min-height:calc(100vh - 400px);
 }
+.dtimeline .dprev {
+	position:fixed;
+	top:0;
+}
+.dtimeline .dprev a {
+	border-radius:0 0 8px 8px;
+	transform:rotate(-90deg);
+	position:absolute;
+	top:2em;
+	left:-1.8em;
+	box-shadow:-1px 3px 8px rgba(0,0,0,0.2);
+}
 .dtimeline .dheader .dcontent-block {
 	margin:8em auto 5em;
 }
@@ -30,6 +42,7 @@
 	max-width:44em;
 	width:100%;
 	margin-bottom:6em;
+	padding:0 1em;
 }
 .dtimeline .dp-block {
 	display:flex;
@@ -40,6 +53,7 @@
 .dtimeline .dp-block .dthumbnail {
 	flex:0 0 6em;
 	position:relative;
+	min-height:8em;
 }
 .dtimeline .dp-block .dthumbnail .dline {
 	height:100%;
@@ -59,11 +73,11 @@
 	background-size:55% 55%;
 }
 .dtimeline .dp-block .dthumbnail .ddevice.dlaptop {
-	background-color:#9aadbe;
+	background-color:#b5adbd;
 	background-image:url(../rss/icons/icon-laptop.svg);
 }
 .dtimeline .dp-block .dthumbnail .ddevice.dtablet {
-	background-color:#b5adbd;
+	background-color:#9aadbe;
 	background-image:url(../rss/icons/icon-tablet.svg);
 }
 .dtimeline .dp-block .dthumbnail .ddevice.dphone {
@@ -73,7 +87,7 @@
 .dtimeline .dp-block .dthumbnail .dyear {
 	width:4em;
 	border-radius:50%;
-	background-color:#f67280;
+	background-color:#000;
 	position:absolute;
 	text-align:center;
 	color:#fff;

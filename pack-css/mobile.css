@@ -29,6 +29,18 @@
 	.dmain .dtags .dtag-wrapper {
 		width:100%;
 	}
+	.dtimeline .dp-block .dthumbnail {
+		flex:0 0 4.25em;
+	}
+	.dtimeline .dp-block .dthumbnail .dline {
+		padding-right:1.625em;
+	}
+	.dtimeline .dp-block .dthumbnail .dyear,
+	.dtimeline .dp-block .dthumbnail .ddevice {
+		width:3.25em;
+		line-height:3.25em;
+		height:3.25em;
+	}
 	footer .dsocial-bar .dcontent-block {
 		max-width:20em;
 	}
