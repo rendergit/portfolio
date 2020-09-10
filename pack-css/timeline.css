@@ -1,0 +1,121 @@
+/*
+.dwork-project-timeline .dproject-block .dthumbnail {width:96px; min-height:140px; position:relative; margin:0; padding:0;}
+.dwork-project-timeline .dproject-block .dthumbnail .dline {border-right:1px solid rgba(13,13,13,0.2); width:47px !important; display:block; height:100%; margin-right:48px;}
+.dwork-project-timeline .dproject-block .dthumbnail img {width:72px; height:72px; position:absolute; top:48px; left:10px; border:none; box-shadow:none; outline:none; font-size:13px; color:#fff; border-radius:50%;background: #f0f0f0 none no-repeat center; padding:0;}
+.dwork-project-timeline .dproject-block .dthumbnail.dmid {min-height:110px !important;}
+.dwork-project-timeline .dproject-block .dthumbnail .dyear {width:96px; height:48px; background-color:#fff; position:absolute; top:44px; padding:8px 16px; box-sizing:border-box; text-align:center; font-size:18px; line-height:30px;letter-spacing:0.1em; color:rgba(13,13,13,0.5);}
+------
+------
+------
+----*/
+
+/*-- timeline.css --*/
+/*----*/
+/*-- colors --
+#000
+#fff
+#555
+#f8f4f0
+#f67280 (faded red)
+#99b898 (faded green)
+#2a363b (dark blue-green)
+--*/
+.dtimeline {
+	min-height:calc(100vh - 400px);
+}
+.dtimeline .dprev {
+	position:fixed;
+	top:0;
+}
+.dtimeline .dprev a {
+	border-radius:0 0 8px 8px;
+	transform:rotate(-90deg);
+	position:absolute;
+	top:2em;
+	left:-1.8em;
+	box-shadow:-1px 3px 8px rgba(0,0,0,0.2);
+}
+.dtimeline .dheader .dcontent-block {
+	margin:8em auto 5em;
+}
+.dtimeline .dprojects .dcontent-block {
+	max-width:44em;
+	width:100%;
+	margin-bottom:6em;
+	padding:0 1em;
+}
+.dtimeline .dp-block {
+	display:flex;
+	flex-direction:row;
+	flex-wrap:nowrap;
+	justify-content:flex-start;
+}
+.dtimeline .dp-block .dthumbnail {
+	flex:0 0 6em;
+	position:relative;
+	min-height:8em;
+}
+.dtimeline .dp-block .dthumbnail .dline {
+	height:100%;
+	position:absolute;
+	border-right:1px solid #a1a1a1;
+	padding-right:2em;
+}
+.dtimeline .dp-block .dthumbnail .ddevice {
+	width:4em;
+	height:4em;
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+	border-radius:50%;
+	background:#eee url() center no-repeat;
+	background-size:55% 55%;
+}
+.dtimeline .dp-block .dthumbnail .ddevice.dlaptop {
+	background-color:#b5adbd;
+	background-image:url(../rss/icons/icon-laptop.svg);
+}
+.dtimeline .dp-block .dthumbnail .ddevice.dtablet {
+	background-color:#9aadbe;
+	background-image:url(../rss/icons/icon-tablet.svg);
+}
+.dtimeline .dp-block .dthumbnail .ddevice.dphone {
+	background-color:#fbd8ca;
+	background-image:url(../rss/icons/icon-phone.svg);
+}
+.dtimeline .dp-block .dthumbnail .dyear {
+	width:4em;
+	border-radius:50%;
+	background-color:#000;
+	position:absolute;
+	text-align:center;
+	color:#fff;
+	line-height:4em;
+}
+.dtimeline .dp-block .ddesc {
+	padding:0.4em 0 3em;
+}
+.dtimeline .dp-block .ddesc>* {
+	display:block;
+}
+.dtimeline .dp-block .dbrief {
+	padding-top:4px;
+}
+.dtimeline .ddesc .dcat {
+	text-transform:uppercase;
+	padding-top:4px;
+	line-height:1.8em;
+}
+
+
+
+/*----*/
+/*
+|
+|
+|
+|
+|
+*/
+/*-- end of file --*/

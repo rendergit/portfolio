@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="24px" viewBox="0 0 46 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Path</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Apple-Devices" transform="translate(-426.000000, -244.000000)" fill="#FFFFFF">
+            <path d="M466,246 L432,246 L432,266 L430,266 L430,245.991155 C430,244.89147 430.901851,244 432.002859,244 L465.997141,244 C467.103289,244 468,244.889674 468,245.991155 L468,266 L472,266 L471.999249,266.046582 C471.991736,266.347107 471.909091,268 471,268 L427,268 C426,268 426,266 426,266 L466,266 L466,246 Z" id="Path"></path>
+        </g>
+    </g>
+</svg>

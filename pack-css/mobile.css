@@ -4,22 +4,53 @@
 }
 /*----*/
 @media only screen and (max-width:800px) {
-	.dmain .dgrid .dcontent-block .dimage {
-		width:33.33%;
+	.dmain .dgrid .dcontent-block .dimage-block {
+		padding:8px;
 	}
 }
 /*----*/
-@media only screen and (max-width:640px) {
-	.dmain .dgrid .dcontent-block .dimage {
-		width:50%;
+@media only screen and (max-width:680px) {
+	.dmain .dgrid .dcontent-block .dimage-block {
+		flex:0 0 33.33%;
 	}
 }
 /*----*/
 @media only screen and (max-width:420px) {
-	
+	.dmain .dgrid .dcontent-block .dimage-block {
+		flex:0 0 50%;
+		height:20em;
+	}
+	.dmain .dgrid .dimage-block .dthumb {
+		height:9em;
+	}
+	.dmain .dtags .dimg-cat {
+		display:none;
+	}
+	.dmain .dtags .dtag-wrapper {
+		width:100%;
+	}
+	.dtimeline .dp-block .dthumbnail {
+		flex:0 0 4.25em;
+	}
+	.dtimeline .dp-block .dthumbnail .dline {
+		padding-right:1.625em;
+	}
+	.dtimeline .dp-block .dthumbnail .dyear,
+	.dtimeline .dp-block .dthumbnail .ddevice {
+		width:3.25em;
+		line-height:3.25em;
+		height:3.25em;
+	}
+	footer .dsocial-bar .dcontent-block {
+		max-width:20em;
+	}
+	footer .dsocial-bar .dsocial-icon {
+		padding:1.6em;
+		border-radius:1.6em;
+	}
 }
 /*----*/
-@media only screen and (max-width:280px) {
+@media only screen and (max-width:375px) {
 }
 
 
