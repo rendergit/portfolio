@@ -29,25 +29,66 @@
 .dtimeline .dprojects .dcontent-block {
 	max-width:44em;
 	width:100%;
+	margin-bottom:6em;
 }
-.dtimeline .dprojects .dp-block {
+.dtimeline .dp-block {
 	display:flex;
 	flex-direction:row;
 	flex-wrap:nowrap;
 	justify-content:flex-start;
 }
-.dtimeline .dprojects .dp-block .dthumbnail {
-	flex-basis:5em;
+.dtimeline .dp-block .dthumbnail {
+	flex:0 0 6em;
+	position:relative;
 }
-.dtimeline .dprojects .dp-block .ddesc {
+.dtimeline .dp-block .dthumbnail .dline {
+	height:100%;
+	position:absolute;
+	border-right:1px solid #a1a1a1;
+	padding-right:2em;
 }
-.dtimeline .dprojects .dp-block .ddesc>* {
+.dtimeline .dp-block .dthumbnail .ddevice {
+	width:4em;
+	height:4em;
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+	border-radius:50%;
+	background:#eee url() center no-repeat;
+	background-size:55% 55%;
+}
+.dtimeline .dp-block .dthumbnail .ddevice.dlaptop {
+	background-color:#9aadbe;
+	background-image:url(../rss/icons/icon-laptop.svg);
+}
+.dtimeline .dp-block .dthumbnail .ddevice.dtablet {
+	background-color:#b5adbd;
+	background-image:url(../rss/icons/icon-tablet.svg);
+}
+.dtimeline .dp-block .dthumbnail .ddevice.dphone {
+	background-color:#fbd8ca;
+	background-image:url(../rss/icons/icon-phone.svg);
+}
+.dtimeline .dp-block .dthumbnail .dyear {
+	width:4em;
+	border-radius:50%;
+	background-color:#f67280;
+	position:absolute;
+	text-align:center;
+	color:#fff;
+	line-height:4em;
+}
+.dtimeline .dp-block .ddesc {
+	padding:0.4em 0 3em;
+}
+.dtimeline .dp-block .ddesc>* {
 	display:block;
 }
-.dtimeline .dprojects .dp-block .dbrief {
+.dtimeline .dp-block .dbrief {
 	padding-top:4px;
 }
-.dtimeline .dprojects .ddesc .dcat {
+.dtimeline .ddesc .dcat {
 	text-transform:uppercase;
 	padding-top:4px;
 	line-height:1.8em;
