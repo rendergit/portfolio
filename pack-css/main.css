@@ -274,6 +274,20 @@ button:hover,
 	transition:background 0.4s ease-in;
 }
 
+/*-- back to home button --*/
+.dprev {
+	position:fixed;
+	top:0;
+}
+.dprev a {
+	border-radius:0 0 8px 8px;
+	transform:rotate(-90deg);
+	position:absolute;
+	top:2em;
+	left:-1.8em;
+	box-shadow:-1px 3px 8px rgba(0,0,0,0.2);
+}
+
 /*-- footer --*/
 footer {
 	padding:8em 0em;
@@ -347,12 +361,10 @@ footer .dcopyright .dcontent-block a:hover {
 
 
 
-/*----*/
 /*
 |
 |
 |
 |
 |
-*/
-/*-- end of file --*/
+|-- end of file --*/
