@@ -15,8 +15,53 @@
 .dstory {
 	min-height:calc(100vh - 400px);
 }
-
-
+/*
+.dtimeline .dheader .dcontent-block {
+	margin:8em auto 5em;
+}
+.dtimeline .dprojects .dcontent-block {
+	max-width:44em;
+	width:100%;
+	margin-bottom:6em;
+	padding:0 1em;
+}
+*/
+.dstory .drow {
+	/*-- aligning all to flex-start --*/
+	align-items:flex-start;
+	justify-content:flex-start;
+}
+.dstory .dheader .dcontent-block {
+	margin:8em 0 0 10%;
+	max-width:19em;
+}
+.dstory .dtop {
+	background:#f8f4f0;
+	padding:5em 0 4em;
+}
+.dstory .dtop .dside {
+	margin-right:9%;
+	min-width:180px;
+}
+.dstory .dtop .dside .dlabel {
+	font-weight:600;
+}
+.dstory .dtop .dsum {
+	max-width:33.33em;
+	margin:0 1em 0 10%;
+}
+.dstory .dslice .dcontent-block {
+	max-width:50em;
+	margin:5em 1em 5em 10%;
+}
+.dstory .dslice h3,
+.dstory .dslice p {
+	max-width:45em;
+	margin-bottom:2em;
+}
+.dstory .dslice img {
+	width:100%;
+}
 
 
 
