@@ -7,6 +7,35 @@
 	.dmain .dgrid .dcontent-block .dimage-block {
 		padding:8px;
 	}
+	.dstory .drow.dheader,
+	.dstory .drow.dslice {
+		flex-direction:column;
+		align-items:center;
+	}
+	.dstory .drow.dheader .dcontent-block,
+	.dstory .drow.dslide .dcontent-block {
+		width:auto;
+	}
+	.dstory .dheader .dcontent-block {
+		margin:8em 2em 5em;
+	}
+	.dstory .drow.dheader .dtitle {
+		width:auto;
+	}
+	.dstory .drow.dtop .dleft {
+		margin:0 2em;
+	}
+	.dstory .drow.dtop .dright {
+		max-width:23em;
+		margin-right:2em;
+	}
+	.dstory .drow.dslice .dleft {
+		margin:0 2em;
+		width:auto;
+	}
+	.dstory .drow.dslice .dright {
+		margin:3em 2em 0;
+	}
 }
 /*----*/
 @media only screen and (max-width:680px) {
@@ -41,6 +70,7 @@
 		line-height:3.25em;
 		height:3.25em;
 	}
+	
 	footer .dsocial-bar .dcontent-block {
 		max-width:20em;
 	}
