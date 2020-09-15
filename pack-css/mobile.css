@@ -70,7 +70,25 @@
 		line-height:3.25em;
 		height:3.25em;
 	}
-	
+	.dstory .drow.dheader .dtitle {
+		text-align:center;
+		transform:scale(0.9);
+	}
+	.dstory .drow.dtop {
+		flex-direction:column;
+		justify-content:flex-start;
+	}
+	.dstory .drow.dtop .dleft {
+		margin:2em 1em 0;
+		order:2;
+	}
+	.dstory .drow.dtop .dright {
+		margin:0 1em;
+	}
+	.dstory .drow.dslice .dcontent-block {
+		margin-right:1em;
+		margin-left:1em;
+	}
 	footer .dsocial-bar .dcontent-block {
 		max-width:20em;
 	}
