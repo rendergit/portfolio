@@ -52,6 +52,9 @@
 	.dmain .dgrid .dimage-block .dthumb {
 		height:9em;
 	}
+	.dmain .dgrid .dimage-block .dhead {
+		padding:0 4px;
+	}
 	.dmain .dtags .dimg-cat {
 		display:none;
 	}
