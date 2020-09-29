@@ -15,6 +15,7 @@
 --*/
 .dstory {
 	min-height:calc(100vh - 400px);
+	padding-bottom:8em;
 }
 .dstory .drow {
 	align-items:flex-start;
@@ -47,13 +48,37 @@
 	font-weight:600;
 }
 .dstory .drow.dslice {
-	padding:5em 0;
+	padding-top:5em;
 }
 .dstory .dslice .dleft h2 {
 	color:#a395a5;
 }
 .dstory .dslice .dright>* {
-	margin-bottom:3em;
+	margin-bottom:2em;
+}
+.dstory .dslice .dright :last-child {
+	margin-bottom:0;
+}
+.dstory .dslice .dright .dsoftware span {
+	width:4em;
+	height:4em;
+	border-radius:50%;
+	display:inline-block;
+	background:#fbd8ca url(../rss/icons/icon-sketch.svg) no-repeat center;
+	margin-right:2%;
+	background-size:cover;
+}
+.dstory .dslice .dsoftware span[name="invision"] {
+	background-image:url(../rss/icons/icon-invision.svg);
+}
+.dstory .dslice .dsoftware span[name="html"] {
+	background-image:url(../rss/icons/icon-html.svg);
+}
+.dstory .dslice .dsoftware span[name="css"] {
+	background-image:url(../rss/icons/icon-css.svg);
+}
+.dstory .dslice .dright .dsoftware :last-child {
+	margin-right:0;
 }
 .dstory .dslice .dright img {
 	width:100%;

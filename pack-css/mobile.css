@@ -33,8 +33,17 @@
 		margin:0 2em;
 		width:auto;
 	}
+	.dstory .drow.dslice .dleft h2 {
+		text-align:center;
+	}
 	.dstory .drow.dslice .dright {
 		margin:3em 2em 0;
+	}
+	.dstory .drow.dslice .dright .dsoftware {
+		display:flex;
+		flex-direction:row;
+		flex-wrap:nowrap;
+		justify-content:center;
 	}
 }
 /*----*/
