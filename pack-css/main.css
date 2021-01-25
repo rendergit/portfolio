@@ -109,6 +109,52 @@ button:hover,
 }
 
 /*-- header --*/
+.dmain .dintro .drow {
+	height:70vh;
+	min-height:320px;
+	overflow:hidden;
+	background-color:#044;
+	flex-direction:column;
+	position:relative;
+}
+.dmain .dintro .dcontent-block.dgallery {
+	width:100%;
+	height:100%;
+	background-color:#000;
+}
+.dmain .dintro .dcontent-block.dtext-wrapper {
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	background-color:rgba(0,0,0,0.2);
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+.dmain .dintro .dcontent-block .dtext-block {
+	background-color:rgba(255,255,255,0.9);
+	display:block;
+	padding:15vh 10%;
+	min-height:200px;
+}
+.dmain .dintro .dname {
+	font-size:2.8em;
+	line-height:1.3em;
+	font-weight:400;
+	color:#000;
+	text-align:center;
+	display:block;
+}
+.dmain .dintro .dtitle {
+	text-transform:uppercase;
+	text-align:center;
+	font-size:14px;
+	letter-spacing:1.5px;
+	display:block;
+	margin-top:5vh;
+}
+/* ----
 .dintro {
 	padding:160px 0 80px;
 	background:#f8f4f0;
@@ -139,7 +185,7 @@ button:hover,
 	width:100%;
 	height:auto;
 	background-color:#f8f4f0;
-}
+} ----*/
 
 /*-- grid --*/
 .dgrid .dcontent-block {
@@ -208,26 +254,6 @@ button:hover,
 .dgrid .dimage:hover .dover {
 	visibility:visible;
 }
-/*
-.dgrid .dimage .dover a {
-	font-size:0.8em;
-	line-height:4em;
-	font-weight:400;
-	color:#555;
-	text-transform:uppercase;
-	letter-spacing:0.1em;
-	box-shadow:none;
-	border:none;
-	background:#f8f4f0;
-	padding:0px 24px;
-}
-.dgrid .dimage .dover a:hover {
-	background:#000;
-	color:#f8f4f0;
-	transition:background 0.4s ease-in;
-	cursor:pointer;
-}
-/*
 
 /*-- tags --*/
 .dtags .dcontent-block {
@@ -240,11 +266,11 @@ button:hover,
 }
 .dtags .dcontent-block .dimg-cat {
 	background:#eee url() center no-repeat;
-	width:50%;
+	width:60%;
 	min-height:10em;
 }
 .dtags .dcontent-block .dtag-wrapper {
-	width:50%;
+	width:40%;
 	padding:0 1em;
 	box-sizing:border-box;
 }
